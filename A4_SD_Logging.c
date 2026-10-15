@@ -100,7 +100,7 @@ int main()
     while (true)
     {
         // From lab 3:
-        // Photocell
+        // Photocell 
         adc_select_input(PHOTO_CELL_ADC);
         // 12-bit conversion, max == ADC_VREF == 3.3 V
         uint16_t result = adc_read();
